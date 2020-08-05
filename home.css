@@ -1,0 +1,58 @@
+body {
+    background:#605059;
+    position: relative;
+    height:100%;
+}
+
+video {
+    display: block;
+    background: #605059;
+    width: 50%;
+    height:50%;
+    float: left;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
+#roomNumberPopup {
+    display:none;
+}
+
+#roomNumberInput {
+    background: #f9F2f6;
+}
+
+.popupButtons {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.popupButtons button {
+    background-color: #7C4565;
+    border: thin solid #E8D0DD;
+    border-radius:5px;
+    color:white;
+    display:block;
+    width: 100%;
+}
+
+.popupButtons button:hover {
+    background-color:#6D0D43;
+}
+
+.popup {
+    z-index: 2;
+    background-color: #66023C;
+    text-align: center;
+    color:#FFFFFF;
+    position: absolute;
+    max-width: 800px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    border: thin dotted white;
+    border-radius: 5px;
+    padding-bottom: 5%;
+    padding-left:5%;
+    padding-right:5%;
+}
